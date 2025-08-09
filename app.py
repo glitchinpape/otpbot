@@ -12,7 +12,7 @@ import base64
 # Configuration (loaded from environment variables)
 TELNYX_API_KEY = os.getenv("KEY01988D95B4F1049E65CE66F8EEC786B1_w45SH8h3jTS4NldNaHmY86")
 TELNYX_PHONE_NUMBER = os.getenv("+1-202-992-7750")
-TELEGRAM_BOT_TOKEN = os.getenv("8114216517:AAHIXqUjMz_q6dVSnvOMJv4ZCllG56CEYxU")
+TELEGRAM_BOT_TOKEN = os.getenv("7949464896:AAHGP7jLBUwhUnq6mJOKUuoXLsZ2OJtAfq8")
 TELEGRAM_CHAT_ID = os.getenv("7588932538")
 TELNYX_CONNECTION_ID = os.getenv("2756508958087710186")
 VERCEL_URL = os.getenv("otpbot-delta.vercel.app")  # Your Vercel app URL
