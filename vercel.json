@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/app.py",
+      "use": "@vercel/python",
+      "config": {
+        "maxLambdaSize": "15mb",
+        "pythonVersion": "3.9"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/webhook",
+      "dest": "api/app.py",
+      "methods": ["POST"]
+    },
+    {
+      "src": "/telnyx_webhook",
+      "dest": "api/app.py",
+      "methods": ["POST"]
+    },
+    {
+      "src": "/audio/(.*)",
+      "dest": "api/app.py",
+      "methods": ["GET"]
+    },
+    {
+      "src": "/(.*)",
+      "dest": "api/app.py"
+    }
+  ]
+}
